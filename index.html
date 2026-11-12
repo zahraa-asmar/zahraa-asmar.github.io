@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zahraa Asmar | WordPress Developer Portfolio</title>
+<meta name="description" content="Portfolio of Zahraa Asmar, WordPress Developer based in the UAE: healthcare, e-commerce, restaurant, corporate and multilingual websites built with Elementor, WPBakery, Gutenberg and WooCommerce.">
+<style>
+:root{--bg:#f7f6f3;--surface:#fff;--ink:#1d1d1b;--muted:#61605b;--line:#e4e2dc;--accent:#0f6b5c;--accent-ink:#fff;--chip:#ecebe6}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--surface:#1e1e1c;--ink:#f1efe9;--muted:#a3a198;--line:#33332f;--accent:#4fb8a4;--accent-ink:#0b1a17;--chip:#2a2a27}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{padding:48px 0 24px}
+h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 6px}
+.role{color:var(--accent);font-weight:600;margin:0 0 14px}
+.lead{max-width:640px;color:var(--muted);margin:0 0 18px}
+.contact a{color:var(--ink);margin-right:16px}
+.stack{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 0;padding:0;list-style:none}
+.stack li{background:var(--chip);border-radius:999px;padding:3px 11px;font-size:13px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 18px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px;cursor:pointer}
+.chip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px;padding-bottom:48px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.card[hidden]{display:none}
+.shot{position:relative;aspect-ratio:16/10;background:linear-gradient(135deg,var(--accent),#2b3a55);overflow:hidden}
+.shot .ini{position:absolute;inset:0;display:grid;place-items:center;font-size:56px;font-weight:700;color:rgba(255,255,255,.85)}
+.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;transition:opacity .3s}
+.shot img.ok{opacity:1}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.meta{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted)}
+.tag{text-transform:uppercase;letter-spacing:.04em;font-weight:600}
+h3{margin:0;font-size:18px}
+.body p{margin:0;color:var(--muted);font-size:14.5px;flex:1}
+.visit{margin-top:6px;color:var(--accent);font-weight:600;text-decoration:none;font-size:14.5px;overflow-wrap:anywhere}
+.visit:hover{text-decoration:underline}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.links a{background:var(--chip);color:var(--ink);border-radius:999px;padding:2px 10px;font-size:12.5px;text-decoration:none}
+.links a:hover{background:var(--accent);color:var(--accent-ink)}
+footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);font-size:14px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Zahraa Asmar</h1>
+    <p class="role">WordPress Developer | Software &amp; Informatics Systems Engineer</p>
+    <p class="lead">I build responsive, SEO-optimized WordPress websites from Figma and Adobe designs, including multilingual sites, WooCommerce stores and custom-coded features. Based in Ajman, UAE, available for on-site roles.</p>
+    <div class="contact"><a href="mailto:zahraaasmar6@gmail.com">zahraaasmar6@gmail.com</a></div>
+    <ul class="stack">
+      <li>WordPress</li><li>Elementor</li><li>WPBakery</li><li>Gutenberg</li><li>WooCommerce</li><li>ACF</li><li>Polylang</li><li>WPML</li><li>PHP</li><li>JavaScript</li><li>jQuery</li><li>HTML5</li><li>CSS3</li><li>Yoast SEO</li><li>Figma</li>
+    </ul>
+  </header>
+  <main>
+    <h2 class="sr" style="position:absolute;left:-9999px">Selected websites</h2>
+    <div class="filters" role="group" aria-label="Filter by category"><button class="chip on" data-f="All">All</button><button class="chip" data-f="Healthcare">Healthcare</button><button class="chip" data-f="E-commerce">E-commerce</button><button class="chip" data-f="Business">Business</button><button class="chip" data-f="Restaurants">Restaurants</button><button class="chip" data-f="Jobs &amp; Directories">Jobs &amp; Directories</button><button class="chip" data-f="Non-profit">Non-profit</button></div>
+    <div class="grid" id="grid">
+    <article class="card" data-cat="Healthcare">
+      <div class="shot"><span class="ini">A</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.al-hayatclinics.com%2F?w=700&h=440" alt="Screenshot of Al-Hayat Medical Clinics" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Healthcare</span><span class="lang">Arabic</span></div>
+        <h3>Al-Hayat Medical Clinics</h3>
+        <p>Women's health, obstetrics, pediatrics and radiology clinic in Latakia, with appointment booking.</p>
+        <a class="visit" href="https://www.al-hayatclinics.com/" target="_blank" rel="noopener noreferrer">al-hayatclinics.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Healthcare">
+      <div class="shot"><span class="ini">A</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.alseef-hospital.com%2F?w=700&h=440" alt="Screenshot of Al Seef Hospital" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Healthcare</span><span class="lang">English / Arabic</span></div>
+        <h3>Al Seef Hospital</h3>
+        <p>Hospital website in Salmiya, Kuwait, covering medical specialties, dental care and surgery, with online booking.</p>
+        <a class="visit" href="https://www.alseef-hospital.com/" target="_blank" rel="noopener noreferrer">alseef-hospital.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Healthcare">
+      <div class="shot"><span class="ini">W</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.wisemedicalcenter.qa%2F?w=700&h=440" alt="Screenshot of Wise Medical Center" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Healthcare</span><span class="lang">English / Arabic</span></div>
+        <h3>Wise Medical Center</h3>
+        <p>Multi-specialty medical center in Doha offering obstetrics, pediatrics, dermatology and cosmetic services, with appointment booking.</p>
+        <a class="visit" href="https://www.wisemedicalcenter.qa/" target="_blank" rel="noopener noreferrer">wisemedicalcenter.qa <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="E-commerce">
+      <div class="shot"><span class="ini">R</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Frimkilany.com%2F?w=700&h=440" alt="Screenshot of Rim Kilany" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">E-commerce</span><span class="lang">English</span></div>
+        <h3>Rim Kilany</h3>
+        <p>Online beauty and cosmetics store based in Dubai, with a cart, wishlist and card and wallet payments.</p>
+        <a class="visit" href="https://rimkilany.com/" target="_blank" rel="noopener noreferrer">rimkilany.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="E-commerce">
+      <div class="shot"><span class="ini">Z</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fzoykw.com%2F?w=700&h=440" alt="Screenshot of Zoy" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">E-commerce</span><span class="lang">English / Arabic</span></div>
+        <h3>Zoy</h3>
+        <p>Online store for a Kuwaiti women's fashion brand, with K-Net, Visa, Mastercard and Apple Pay checkout.</p>
+        <a class="visit" href="https://zoykw.com/" target="_blank" rel="noopener noreferrer">zoykw.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="E-commerce">
+      <div class="shot"><span class="ini">A</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Faurora-luce.co.uk%2F?w=700&h=440" alt="Screenshot of Aurora Luce Lighting" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">E-commerce</span><span class="lang">English</span></div>
+        <h3>Aurora Luce Lighting</h3>
+        <p>Product catalog site for an LED lighting manufacturer serving distributors and project partners.</p>
+        <a class="visit" href="https://aurora-luce.co.uk/" target="_blank" rel="noopener noreferrer">aurora-luce.co.uk <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">S</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsolutionplus.me%2F?w=700&h=440" alt="Screenshot of Solution Plus" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">English / Arabic</span></div>
+        <h3>Solution Plus</h3>
+        <p>Corporate site for a Kuwait IT solutions company: web development, HR and attendance systems, digital signage.</p>
+        <a class="visit" href="https://solutionplus.me/" target="_blank" rel="noopener noreferrer">solutionplus.me <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">C</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.cres.vip%2F?w=700&h=440" alt="Screenshot of CRES" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">English / Arabic</span></div>
+        <h3>CRES</h3>
+        <p>Digital marketing and creative agency site in Doha, covering branding, design, software and video production.</p>
+        <a class="visit" href="https://www.cres.vip/" target="_blank" rel="noopener noreferrer">cres.vip <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">G</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgrowup.marketing%2F?w=700&h=440" alt="Screenshot of Growup" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">English</span></div>
+        <h3>Growup</h3>
+        <p>Digital marketing agency site in Tripoli, Lebanon: social media, web design, SEO and branding.</p>
+        <a class="visit" href="https://growup.marketing/" target="_blank" rel="noopener noreferrer">growup.marketing <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">C</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fcreativesolutions.cres.vip%2F?w=700&h=440" alt="Screenshot of Creative Solutions" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">English</span></div>
+        <h3>Creative Solutions</h3>
+        <p>Company site for a creative and IT services provider: software, marketing and IT hardware supply.</p>
+        <a class="visit" href="https://creativesolutions.cres.vip/" target="_blank" rel="noopener noreferrer">creativesolutions.cres.vip <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">D</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fderoyaltobacco.com%2F?w=700&h=440" alt="Screenshot of De Royal Tobacco" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">English</span></div>
+        <h3>De Royal Tobacco</h3>
+        <p>B2B corporate site for a UAE tobacco processor and manufacturer, with an age-verification gate and enquiry form.</p>
+        <a class="visit" href="https://deroyaltobacco.com/" target="_blank" rel="noopener noreferrer">deroyaltobacco.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">A</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Falmarfamarine.com%2F?w=700&h=440" alt="Screenshot of Al Marfa Marine" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">English</span></div>
+        <h3>Al Marfa Marine</h3>
+        <p>Corporate site for a Saudi maritime services company operating landing crafts, crew boats and taxi boats.</p>
+        <a class="visit" href="https://almarfamarine.com/" target="_blank" rel="noopener noreferrer">almarfamarine.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">L</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.leen-security.com%2F?w=700&h=440" alt="Screenshot of Leen Security" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">German</span></div>
+        <h3>Leen Security</h3>
+        <p>Service site for a German security company covering guarding, events and construction sites, with a service request form.</p>
+        <a class="visit" href="https://www.leen-security.com/" target="_blank" rel="noopener noreferrer">leen-security.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Business">
+      <div class="shot"><span class="ini">S</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsamroofing.mootawer.com%2F?w=700&h=440" alt="Screenshot of Sam Roofing" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Business</span><span class="lang">English</span></div>
+        <h3>Sam Roofing</h3>
+        <p>Local business site for a Michigan roofing company, with consultation and contact pages.</p>
+        <a class="visit" href="https://samroofing.mootawer.com/" target="_blank" rel="noopener noreferrer">samroofing.mootawer.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Restaurants">
+      <div class="shot"><span class="ini">A</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Faboushawarma.com%2F?w=700&h=440" alt="Screenshot of Abou Shawarma" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Restaurants</span><span class="lang">English / Arabic</span></div>
+        <h3>Abou Shawarma</h3>
+        <p>Website for a Lebanese shawarma restaurant franchise, with menu, locations and franchise information.</p>
+        <a class="visit" href="https://aboushawarma.com/" target="_blank" rel="noopener noreferrer">aboushawarma.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Restaurants">
+      <div class="shot"><span class="ini">B</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbiralrawhaa.com%2Fbranches%2F?w=700&h=440" alt="Screenshot of Bir Al Rawhaa: Branches" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Restaurants</span><span class="lang">Arabic / English</span></div>
+        <h3>Bir Al Rawhaa: Branches</h3>
+        <p>Branches page of the Bir Al Rawhaa restaurant website.</p>
+        <a class="visit" href="https://biralrawhaa.com/branches/" target="_blank" rel="noopener noreferrer">biralrawhaa.com/branches <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Restaurants">
+      <div class="shot"><span class="ini">B</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbiralrawhaa.com%2FMENU%2F?w=700&h=440" alt="Screenshot of Bir Al Rawhaa: Menu" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Restaurants</span><span class="lang">Arabic / English</span></div>
+        <h3>Bir Al Rawhaa: Menu</h3>
+        <p>Restaurant menu listed by category (meats, chicken, sides, desserts, drinks), with prices and calories.</p>
+        <a class="visit" href="https://biralrawhaa.com/MENU/" target="_blank" rel="noopener noreferrer">biralrawhaa.com/MENU <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Restaurants">
+      <div class="shot"><span class="ini">B</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbiralrawhaa.com%2FDIGITAL-MENU%2F?w=700&h=440" alt="Screenshot of Bir Al Rawhaa: Digital Menu" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Restaurants</span><span class="lang">Arabic / English</span></div>
+        <h3>Bir Al Rawhaa: Digital Menu</h3>
+        <p>Digital menu page of the Bir Al Rawhaa restaurant website.</p>
+        <a class="visit" href="https://biralrawhaa.com/DIGITAL-MENU/" target="_blank" rel="noopener noreferrer">biralrawhaa.com/DIGITAL-MENU <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Restaurants">
+      <div class="shot"><span class="ini">B</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbiralrawhaa.com%2Fblog%2F?w=700&h=440" alt="Screenshot of Bir Al Rawhaa: Blog" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Restaurants</span><span class="lang">Arabic / English</span></div>
+        <h3>Bir Al Rawhaa: Blog</h3>
+        <p>Blog section of the Bir Al Rawhaa restaurant website.</p>
+        <a class="visit" href="https://biralrawhaa.com/blog/" target="_blank" rel="noopener noreferrer">biralrawhaa.com/blog <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Restaurants">
+      <div class="shot"><span class="ini">B</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fbiralrawhaa.com%2Fstore%2F?w=700&h=440" alt="Screenshot of Bir Al Rawhaa: Store" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Restaurants</span><span class="lang">Arabic / English</span></div>
+        <h3>Bir Al Rawhaa: Store</h3>
+        <p>Online store section of the Bir Al Rawhaa restaurant website.</p>
+        <a class="visit" href="https://biralrawhaa.com/store/" target="_blank" rel="noopener noreferrer">biralrawhaa.com/store <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Restaurants">
+      <div class="shot"><span class="ini">A</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwebsite-d09e7c2c.wig.dnz.mybluehost.me%2F?w=700&h=440" alt="Screenshot of Americana Menu (Bio Page)" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Restaurants</span><span class="lang">English</span></div>
+        <h3>Americana Menu (Bio Page)</h3>
+        <p>Restaurant bio-link page with a QR code to the menu and a link to the location on Google Maps.</p>
+        <a class="visit" href="https://website-d09e7c2c.wig.dnz.mybluehost.me/" target="_blank" rel="noopener noreferrer">website-d09e7c2c.wig.dnz.mybluehost.me <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Jobs &amp; Directories">
+      <div class="shot"><span class="ini">W</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.wifaq.top%2F?w=700&h=440" alt="Screenshot of Wifaq Employment Initiative" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Jobs &amp; Directories</span><span class="lang">Arabic</span></div>
+        <h3>Wifaq Employment Initiative</h3>
+        <p>Non-profit employment initiative connecting job seekers with remote and local jobs, with free workshops.</p>
+        <a class="visit" href="https://www.wifaq.top/" target="_blank" rel="noopener noreferrer">wifaq.top <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Jobs &amp; Directories">
+      <div class="shot"><span class="ini">G</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.gulf-recruiting.com%2F?w=700&h=440" alt="Screenshot of Gulf Recruiting" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Jobs &amp; Directories</span><span class="lang">Arabic / English</span></div>
+        <h3>Gulf Recruiting</h3>
+        <p>Career and recruitment content site with job, immigration and scholarship articles.</p>
+        <a class="visit" href="https://www.gulf-recruiting.com/" target="_blank" rel="noopener noreferrer">gulf-recruiting.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Jobs &amp; Directories">
+      <div class="shot"><span class="ini">G</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.garantie.biz%2F?w=700&h=440" alt="Screenshot of Garantie" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Jobs &amp; Directories</span><span class="lang">German / English</span></div>
+        <h3>Garantie</h3>
+        <p>Staffing agency site for remote professionals in IT, design and marketing, with a CV upload form.</p>
+        <a class="visit" href="https://www.garantie.biz/" target="_blank" rel="noopener noreferrer">garantie.biz <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Jobs &amp; Directories">
+      <div class="shot"><span class="ini">M</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.more-jobz.com%2F?w=700&h=440" alt="Screenshot of More Jobz" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Jobs &amp; Directories</span><span class="lang">Arabic / English</span></div>
+        <h3>More Jobz</h3>
+        <p>Recruitment group site with job listings, HR consulting and training courses for job seekers and employers in Egypt.</p>
+        <a class="visit" href="https://www.more-jobz.com/" target="_blank" rel="noopener noreferrer">more-jobz.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Jobs &amp; Directories">
+      <div class="shot"><span class="ini">Q</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.qc.guide%2F?w=700&h=440" alt="Screenshot of QC Guide" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Jobs &amp; Directories</span><span class="lang">English / Arabic</span></div>
+        <h3>QC Guide</h3>
+        <p>Business directory for Qatar listing hotels, restaurants, medical centers and more.</p>
+        <a class="visit" href="https://www.qc.guide/" target="_blank" rel="noopener noreferrer">qc.guide <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="card" data-cat="Non-profit">
+      <div class="shot"><span class="ini">A</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Falrahma-ksa.org%2F?w=700&h=440" alt="Screenshot of Al-Rahma Association" loading="lazy" onload="this.classList.add('ok')" onerror="this.remove()"></div>
+      <div class="body">
+        <div class="meta"><span class="tag">Non-profit</span><span class="lang">Arabic / English</span></div>
+        <h3>Al-Rahma Association</h3>
+        <p>Charity site in Makkah focused on kidney failure awareness, prevention and patient support.</p>
+        <a class="visit" href="https://alrahma-ksa.org/" target="_blank" rel="noopener noreferrer">alrahma-ksa.org <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    </div>
+  </main>
+  <footer>Selected WordPress websites. Each link opens the live site.</footer>
+</div>
+<script>
+(function(){
+  var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.card');
+  chips.forEach(function(b){b.addEventListener('click',function(){
+    chips.forEach(function(x){x.classList.remove('on')});b.classList.add('on');
+    var f=b.getAttribute('data-f');
+    cards.forEach(function(c){c.hidden=!(f==='All'||c.getAttribute('data-cat')===f)});
+  })});
+})();
+</script>
+</body>
+</html>
